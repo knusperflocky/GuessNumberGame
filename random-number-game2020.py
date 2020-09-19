@@ -16,5 +16,5 @@ for anzahlRaten in range(1, 7):
 if geraten == geheimZahl:
     print('Super, ' + name + ', das war genau meine Zahl! Du hast sie mit ' + str(anzahlRaten) + ' Versuchen erraten!')
 else:
-    print('Nein, die Zahl an die ich dachte war ' + str(geheimZahl))
+    print('Nein, die Zahl an die ich dachte war ' + str(geheimZahl)) + print('Gut gemacht')
 
